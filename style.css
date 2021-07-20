@@ -1,0 +1,41 @@
+@font-face {
+  font-family: VarelaRound;
+  src: url(VarelaRound-Regular.ttf);
+}
+
+body {
+  background-color: #323234;
+  margin: 0;
+  font-family: VarelaRound;
+}
+
+#logo {
+  height: 120px;
+  weight: 100%;
+  background: black;
+  border:3px solid #00ff00;
+  border-right-style: none;
+  text-align: center;
+}
+
+#content {
+  height: auto;
+}
+
+#sidebar {
+  height: 1000px;
+  width: 200px;
+  float: left;
+  background-color: black;
+  border:3px solid #00ff00;
+  border-top-style: none;
+}
+
+#name {
+  color: #00ff00;
+  font-size: 30px;
+}
+#name2 {
+  color: #00ff00;
+  font-size: 10px;
+}
